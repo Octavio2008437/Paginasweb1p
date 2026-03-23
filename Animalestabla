@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabla de Animales</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
 
+<h1 style="text-align:center;">Tabla de Animales</h1>
+
+<table>
+    <tr>
+        <th>Animal</th>
+        <th>Tipo</th>
+        <th>Alimentación</th>
+    </tr>
+
+    <tr>
+        <td>León</td>
+        <td>Mamífero</td>
+        <td>Carnívoro</td>
+    </tr>
+
+    <tr>
+        <td>Vaca</td>
+        <td>Mamífero</td>
+        <td>Herbívoro</td>
+    </tr>
+
+    <tr>
+        <td>Águila</td>
+        <td>Ave</td>
+        <td>Carnívoro</td>
+    </tr>
+
+    <tr>
+        <td>Pez</td>
+        <td>Acuático</td>
+        <td>Omnívoro</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
